@@ -34,17 +34,4 @@
             {% for user in users %}
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <div class="card-body"><h5 class="card-title">{{ user.name }}</h5>
-                        <p class="card-text">Возраст: {{ user.age }}</p>
-                        <p class="card-text">Город: {{ user.city }}</p>
-                        <p class="card-text">Хобби: {{ user.hobby }}</p>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+                    <div class="card-body">
